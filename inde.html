@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="estilo/estilo.css">
+
+  <title>Día del Trabajo</title>
+
+  <style>
+    .carru img {
+      height: 250px;
+      object-fit: cover;
+    }
+
+    /* estilo tipo tabs */
+    .navbar-light .nav-link {
+      border-bottom: 2px solid transparent;
+    }
+
+    .navbar-light .nav-link:hover {
+      border-bottom: 2px solid rgb(118, 10, 145);
+    }
+  </style>
+</head>
+
+<body>
+
+<!--  BARRA NEGRA -->
+<nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand">DÍA DEL TRABAJO</a>
+
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Buscar">
+      <button class="btn btn-outline-success">Buscar</button>
+    </form>
+  </div>
+</nav>
+
+<!-- MENÚ BLANCO (AHORA RESPONSIVO ☰) -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+  <div class="container-fluid">
+
+    <!-- BOTÓN HAMBURGUESA -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuBlanco">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- MENÚ -->
+    <div class="collapse navbar-collapse" id="menuBlanco">
+      <ul class="navbar-nav">
+
+        <li class="nav-item"><a class="nav-link active" href="inde.html">INICIO</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/historia.html">HISTORIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/derecho.html">DERECHOS LABORALES</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/galeria.html">GALERIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/personajes.html">PERSONAJES BOLIVIANOS</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/feriado.html">FERIADO EN BOLIVIA</a></li>
+        <li class="nav-item"><a class="nav-link" href="pag/feriado.html">CONTACTO</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!--  CARRUSEL -->
+<div class="container mt-3 carru">
+  <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/carru1.png" class="d-block w-100 img-fluid">
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/carru5.jpg" class="d-block w-100 img-fluid">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+
+  </div>
+</div>
+
+<!--  CONTENIDO -->
+<div class="container mt-5">
+  <div class="row">
+
+    <!-- IZQUIERDA -->
+    <div class="col-12 col-md-8">
+      <h1 class="display-6"><strong>Día Internacional de los Trabajadores</strong></h1><br><br>
+          <p class="fs-4">El Día Internacional de los Trabajadores o Primero de Mayo es la conmemoración del movimiento obrero mundial. Es una jornada que se ha utilizado, habitualmente, para realizar diferentes reivindicaciones sociales y laborales a favor de las clases trabajadoras. Es día festivo nacional en la mayoría de países.
+
+Desde su establecimiento (aunque la consideración del día festivo fue en muchos casos tardía) por acuerdo del Congreso Obrero Socialista de la Segunda Internacional, celebrado en París en 1889,[1] es una jornada de lucha reivindicativa y de homenaje a los Mártires de Chicago. Estos sindicalistas anarquistas fueron ejecutados en Estados Unidos por participar en las protestas de lucha por la consecución de la jornada laboral de ocho horas, que tuvo su origen en la huelga iniciada el 1 de mayo de 1886 y su punto álgido tres días más tarde, el 4 de mayo, en la revuelta de Haymarket. A partir de entonces se convirtió en una jornada reivindicativa de los derechos de los trabajadores en sentido general que es conmemorada en mayor o menor medida en todo el planeta.</p>
+   
+      <!-- TABLA -->
+      <div class="card mt-4">
+        <div class="container mt-4">
+  <div class="card">
+
+    <!-- Título -->
+    <div class="card-header text-center bg-info">
+      <h2>Día Internacional de los Trabajadores</h2>
+    </div>
+
+    <!-- Imagen -->
+    <div class="card-body text-center">
+      <img src="img/tabla.jpg" class="img-fluid mb-3">
+
+      <p>
+        Manifestación del Día de los Trabajadores en 
+        <span class="text-primary">Barcelona</span> en 2009
+      </p>
+    </div>
+
+    <!-- Tabla -->
+    <div class="table-responsive">
+      <table class="table table-bordered mb-0">
+        <thead class="table-primary text-center">
+          <tr>
+            <th colspan="2">Datos generales</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Tipo</th>
+            <td>Festividad pública, día internacional, evento anual</td>
+          </tr>
+          <tr>
+            <th>Primera vez</th>
+            <td>1889</td>
+          </tr>
+          <tr>
+            <th>Fecha</th>
+            <td>1 de mayo</td>
+          </tr>
+          <tr>
+            <th>Motivo</th>
+            <td>Trabajo, obreros, Revuelta de Haymarket</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</div>
+
+        
+
+      </div>
+    </div>
+
+    <!-- DERECHA -->
+    <div class="col-12 col-md-4">
+      <h3>Noticias del Trabajo</h3>
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-12 col-md-6">
+            <img src="img/index1.jpg" class="img-fluid w-100">
+          </div>
+          <div class="col-12 col-md-6 p-3">
+            <h6>Receta de ‘modernización laboral’ llega al país: plantea productividad; dan ‘portazo’ al diálogol</h6>
+            <p class="small">Los empresarios buscan actualizar la Ley General del Trabajo. Proponen flexibilidad regulada. La COB y el sector fabril ‘sepultan’ negociaciones. En Argentina y México ya hubo.</p>
+            <a href="#" class="stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-12 col-md-6">
+            <img src="img/index3.jpg" class="img-fluid w-100">
+          </div>
+          <div class="col-12 col-md-6 p-3">
+            <h6>Receta de ‘modernización laboral’ llega al país: plantea productividad; dan ‘portazo’ al diálogol</h6>
+            <p class="small">Los empresarios buscan actualizar la Ley General del Trabajo. Proponen flexibilidad regulada. La COB y el sector fabril ‘sepultan’ negociaciones. En Argentina y México ya hubo.</p>
+            <a href="#" class="stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-12 col-md-6">
+            <img src="img/index2.jpg" class="img-fluid w-100">
+          </div>
+          <div class="col-12 col-md-6 p-3">
+            <h6>Cochabamba está entre los principales destinos laborales en el país</h6>
+            <p class="small">Entre los municipios expulsores de mano de obra están El Alto, Cochabamba, Nuestra Señora de La Paz, Sacaba y Santa Cruz de la Sierra.</p>
+            <a href="#" class="stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="card mb-3">
+        <div class="row g-0">
+          <div class="col-12 col-md-6">
+            <img src="img/index4.jpg" class="img-fluid w-100">
+          </div>
+          <div class="col-12 col-md-6 p-3">
+            <h6>Carrera de Planificación del Territorio responde a la demanda laboral</h6>
+            <p class="small">En más de 16 años, la carrera formó generaciones de profesionales cuya cantidad sigue siendo menor a lo que se necesita en el país.</p>
+            <a href="#" class="stretched-link">Ver más</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</div>
+
+<!--  FOOTER -->
+<footer class="bg-dark text-white text-center p-4 mt-4">
+   <p class="mb-1">
+    © 2026 Diario del Trabajador | Todos los derechos reservados
+  </p>
+
+  <p class="mb-2">
+    Desarrollado por <strong>Ana Carolina Herrera</strong>
+  </p>
+
+  <p>Síguenos:</p>
+
+  <i class="bi bi-facebook mx-2"></i>
+  <i class="bi bi-instagram mx-2"></i>
+  <i class="bi bi-twitter mx-2"></i>
+</footer>
+
+</body>
+</html>
+
